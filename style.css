@@ -31,7 +31,7 @@ header
     justify-content: space-between;
 }
 
-section
+#section1
 {
     margin-top: 50px;
     border: grey solid 2px;
@@ -125,6 +125,7 @@ ul
     justify-content: space-between;
     align-items: center;  
 }
+
 #filtre_bills
 {
     margin-top: 0.05;
@@ -143,6 +144,7 @@ ul
     margin-bottom:-0.3em;
 
 }
+
 #filtre_family
 {
     margin-top: 0.05;
@@ -161,6 +163,7 @@ ul
     margin-bottom:-0.2em;
 
 }
+
 #filtre_romantic
 {
     margin-top: 0.05;
@@ -177,8 +180,8 @@ ul
     margin-left: -0.3em;
     margin-top: -0.1em;
     margin-bottom: -0.2em;
-
 }
+
 #filtre_animals
 {
     margin-top: 0.05;
@@ -196,8 +199,7 @@ ul
     margin-top:-0.1em;
     margin-bottom:-0.1em;
 }
-
-article
+#articlelogements
 {
     display: flex;
     flex-wrap: wrap;
@@ -206,6 +208,7 @@ article
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(242, 242, 242);
 }
+
 .hebergements
 {
     width: 14em;
@@ -214,6 +217,7 @@ article
     border-radius: 20px 20px 20px 20px;
     margin:1em 1em;
 }
+
 .photologement
 {
     width: 13.7em;
@@ -223,6 +227,7 @@ article
     border-top-right-radius: 20px;
     padding: center;
 }
+
 .figcaption
 {
     display: flex;
@@ -231,17 +236,20 @@ article
     margin-bottom: 0px;
     margin-bottom: 0px;
 }
+
 h3
 {
-    
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 100%;
 }
+
 p
 {
    margin-bottom: 0px;
     margin-top: 0px;
 }
+
 h2
 {
     display: flex;
@@ -257,11 +265,13 @@ aside
     width: 38%;
     margin: 0px;
 }
-#section1
+
+#section2
 {
     display: flex;
-    height: 500px;
+    height: 30%;
 }
+
 .photopopulaire
 {
     border-top-left-radius: 20px;
@@ -270,6 +280,7 @@ aside
     height: 8em;
     margin-right: 2em;
 }
+
 .logementspopulaires
 {
     background-color: white;
@@ -280,38 +291,65 @@ aside
 {
     color: black;
 }
-#sectionarticleactivites
+#section3
 {
-    height: auto;
+    height: 30%;
 }
+
 #articleactivites
 {
     width: 100%;
     height: auto;
     display: flex;
+    align-content: center;
     flex-wrap: wrap;
+
 }
 
-.photoactivites
+.vignettesactivites
 {
-    height: 400px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: black 4px 4px 4px;
 }
-.photoactivitest1
+
+.vignettesactivites:nth-child(1) 
 {
-    height: 90px;
-    border: black 3px solid;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-left: 0px ;
-    margin-right: 0px;
+   width: 20%;
+   height: 100%;
 }
-.photoactivitest2
+
+.vignettesactivites:nth-child(2)
 {
-    height: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    width: 5%;
+    height: 20%;
 }
-.photoactivitest3
+.vignettesactivites:nth-child(3)
 {
-    height: 70px;
+    width: 5%;
+    height: 25%;
+}
+
+.vignettesactivites:nth-child(4)
+{
+   
+    width: 20%;
+    height: 50%;
+}
+
+.vignettesactivites:nth-child(5)
+{
+    width: 5%;
+}
+
+.vignettesactivites:nth-child(6)
+{
+    width: 5%;
+}
+
+.photosactivites
+{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0px;
 }
