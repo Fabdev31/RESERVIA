@@ -1,0 +1,317 @@
+body
+{
+    background-color:white;
+}
+
+#bloc-page
+{
+    background-color: white;
+    margin: 2%;
+}
+
+nav
+{
+    width: fit-content;
+   
+}
+#logo_reservia
+{
+   
+}
+nav ul
+{
+    width: 400px; 
+  
+    display: flex;
+    justify-content: space-around;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+section
+{
+    margin-top: 50px;
+    border: grey solid 2px;
+}
+
+#bullederecherche
+{
+    display: flex  
+}
+
+#icon_map
+{
+    background-color: rgb(242, 242, 242);
+    border:rgb(242, 242, 242) solid 2px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 5px 4px 5px 7px;
+    margin-right: 0px;
+}
+
+#boutonbleu
+{
+    color: white;
+    border: solid rgb(0, 101, 252) 2px;
+    background-color: rgb(0, 101, 252);
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    padding: 4px;
+    margin-left: 0px;
+}
+
+input, ::placeholder
+{
+  height: 29px;
+  margin: 0px;
+}
+
+i
+{
+    color:rgb(0, 101, 252);
+}
+#cercle_info
+{
+    border: rgb(242, 242, 242) 2px solid;
+    border-radius: 50%;
+    margin-left:0em ;
+    margin-right: 0.5em;
+    padding: 0.3em 0.65em 0.3em 0.65em;
+}
+
+background_circle
+{
+    color: aquamarine;
+}
+
+#description_footer
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+ul
+{
+    margin-left: 0%;
+    list-style: none;
+    text-align: left;
+}
+
+#mentionslegales
+{
+    font-weight: bold;
+}
+#grosseur_info
+{
+    font-size: 100%;
+}
+
+#eco_circle
+{
+    color:rgb(222, 235, 255);
+    opacity: 1;
+}
+
+#presentation_filtres
+{
+    width: 70%;
+    border: black solid 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+#filtre_bills
+{
+    margin-top: 0.05;
+    padding: 0em 1.1em 0.1em 0.3em;
+    border: rgb(242, 242, 242) solid 2.2px;
+    border-radius: 25px 25px 25px 25px;
+}
+#bills
+{
+    background-color: rgb(222, 235, 255);
+    border-radius: 50%;
+    padding: 0.89em 0.79em 0.89em 0.79em;
+    margin-right: 0.6em;
+    margin-left: -0.3em;
+    margin-top:-0.1em;
+    margin-bottom:-0.3em;
+
+}
+#filtre_family
+{
+    margin-top: 0.05;
+    padding: 0em 1.1em 0.1em 0.3em;
+    border: rgb(242, 242, 242) solid 2.2px;
+    border-radius: 25px 25px 25px 25px;
+}
+#family
+{
+    background-color: rgb(222, 235, 255);
+    border-radius: 50%;
+    padding: 0.89em 0.99em 0.89em 0.99em;
+    margin-right: 0.6em;
+    margin-left: -0.3em;
+    margin-top:-0.1em;
+    margin-bottom:-0.2em;
+
+}
+#filtre_romantic
+{
+    margin-top: 0.05;
+    padding: 0em 0.8em 0.1em 0.3em;
+    border: rgb(242, 242, 242) solid 2.2px;
+    border-radius: 25px 25px 25px 25px;
+}
+#romantic
+{
+    background-color: rgb(222, 235, 255);
+    border-radius: 50%;
+    padding: 0.8em 0.8em 0.95em 0.8em;
+    margin-right: 0.6em;
+    margin-left: -0.3em;
+    margin-top: -0.1em;
+    margin-bottom: -0.2em;
+
+}
+#filtre_animals
+{
+    margin-top: 0.05;
+    padding: 0em 1.1em 0.1em 0.3em;
+    border: rgb(242, 242, 242) solid 2.2px;
+    border-radius: 25px 25px 25px 25px;
+}
+#animals
+{
+    background-color: rgb(222, 235, 255);
+    border-radius: 50%;
+    padding: 0.8em 0.7em 0.89em 0.7em;
+    margin-right: 0.6em;
+    margin-left: -0.3em;
+    margin-top:-0.1em;
+    margin-bottom:-0.1em;
+}
+
+article
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start ;
+    width: 60%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(242, 242, 242);
+}
+.hebergements
+{
+    width: 14em;
+    height: 10em;
+    border: royalblue solid 2px;
+    border-radius: 20px 20px 20px 20px;
+    margin:1em 1em;
+}
+.photologement
+{
+    width: 13.7em;
+    height: 5em;
+    border:black 1px solid ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: center;
+}
+.figcaption
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+h3
+{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p
+{
+   margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: black solid 1px;
+}
+
+aside
+{
+    background-color: rgb(242, 242, 242);
+    border: blueviolet solid 1px;
+    width: 38%;
+    margin: 0px;
+}
+#section1
+{
+    display: flex;
+    height: 500px;
+}
+.photopopulaire
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 8em;
+    height: 8em;
+    margin-right: 2em;
+}
+.logementspopulaires
+{
+    background-color: white;
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+}
+#iconepopulaire
+{
+    color: black;
+}
+#sectionarticleactivites
+{
+    height: auto;
+}
+#articleactivites
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photoactivites
+{
+    height: 400px;
+}
+.photoactivitest1
+{
+    height: 90px;
+    border: black 3px solid;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px ;
+    margin-right: 0px;
+}
+.photoactivitest2
+{
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.photoactivitest3
+{
+    height: 70px;
+}
