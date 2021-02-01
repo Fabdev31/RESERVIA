@@ -5,13 +5,14 @@ body
 
 #bloc-page
 {
+    width: 1500px ;
     background-color: white;
-    margin: 2%;
+    margin: 2px;
 }
 
 nav
 {
-    width: fit-content;
+    
    
 }
 #logo_reservia
@@ -199,6 +200,13 @@ ul
     margin-top:-0.1em;
     margin-bottom:-0.1em;
 }
+
+#section2
+{
+    display: flex;
+    height: 30%;
+}
+
 #articlelogements
 {
     display: flex;
@@ -211,43 +219,30 @@ ul
 
 .hebergements
 {
-    width: 14em;
-    height: 10em;
+    width: 224px;
+    height: 160px;
     border: royalblue solid 2px;
     border-radius: 20px 20px 20px 20px;
-    margin:1em 1em;
+    margin:1em 1em 1em 1em;
+    padding: 0.3em;
+    background-color: white;
 }
 
 .photologement
 {
-    width: 13.7em;
-    height: 5em;
+    width: 100%;
     border:black 1px solid ;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding: center;
+    justify-content: space-around;
+
 }
 
-.figcaption
+figcaption
 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-h3
-{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-}
-
-p
-{
-   margin-bottom: 0px;
-    margin-top: 0px;
+    margin-left: 0.8em;
 }
 
 h2
@@ -258,6 +253,20 @@ h2
     border: black solid 1px;
 }
 
+h3
+{
+    font-size: 1em;
+    margin-top: 0.2em;
+    margin-bottom: 0px;
+}
+
+p
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
 aside
 {
     background-color: rgb(242, 242, 242);
@@ -266,19 +275,11 @@ aside
     margin: 0px;
 }
 
-#section2
-{
-    display: flex;
-    height: 30%;
-}
-
 .photopopulaire
 {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 8em;
-    height: 8em;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 .logementspopulaires
@@ -286,70 +287,87 @@ aside
     background-color: white;
     display: flex;
     border-radius: 20px 20px 20px 20px;
+    width: 365px;
+    height: 150px;
 }
 #iconepopulaire
 {
     color: black;
 }
+
 #section3
 {
-    height: 30%;
+    width: 100%;
 }
 
 #articleactivites
 {
-    width: 100%;
-    height: auto;
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-
+    justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
-.vignettesactivites
-{
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: black 4px 4px 4px;
-}
 
-.vignettesactivites:nth-child(1) 
+.vignettegrandephoto
 {
-   width: 20%;
-   height: 100%;
-}
-
-.vignettesactivites:nth-child(2)
-{
-    width: 5%;
-    height: 20%;
-}
-.vignettesactivites:nth-child(3)
-{
-    width: 5%;
-    height: 25%;
-}
-
-.vignettesactivites:nth-child(4)
-{
+    width: 300px;
+    height: 436px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(242, 242, 242);
    
-    width: 20%;
-    height: 50%;
 }
 
-.vignettesactivites:nth-child(5)
+#vignettephoto2
 {
-    width: 5%;
+    width: 300px;
+    height: 232px;
+   
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(242, 242, 242);
 }
-
-.vignettesactivites:nth-child(6)
+#vignettephoto3
 {
-    width: 5%;
+    width: 300px;
+    height: 163.6px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(242, 242, 242);
+    margin-top: 2.6em;
+}
+#vignettephoto5
+{
+    width: 300px;
+    height: 190.9px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(242, 242, 242);
+
+}
+#vignettephoto6
+{
+    width: 300px;
+    height: 190.9px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(242, 242, 242);
+    margin-top: 3.3em;
 }
 
+#agencementvignette2_3
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#agencementvignette5_6
+{
+       margin-top: 0px;
+}
 .photosactivites
 {
-    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin: 0px;
+    width: 100%;
+}
+.placement_titre
+{
+    font-size: 1em;
+    margin-left: 2em;
+    margin-top: 0.7em;
 }
