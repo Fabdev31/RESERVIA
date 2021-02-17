@@ -475,3 +475,23 @@ li
 {
     margin-top: 10%;
 }
+
+@media
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 0;
+    margin-left: 8%;
+}
+
+.groupe-vignettes-1-4
+{
+    width: 200px;
+    height: 436px;
+    background-color: red;
+    padding: 3px;
+    margin: 2%;
+    
+}
