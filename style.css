@@ -531,7 +531,7 @@ li
         flex-wrap: wrap;
         width: 100%;
         margin-left: -20%;
-        margin-bottom: 6%;
+        margin-bottom: 6%cd;
     }
 
     #hebergement 
@@ -607,9 +607,9 @@ li
         width: 57%;
     }
     
-    .elements-en-police-legere
+    .icone-information-section1
     {
-
+        float: left;
     }
 
     #section2 
@@ -683,9 +683,9 @@ li
     }
     #vignette-photo1
     {
-        width: 102%;
+        width: 95%;
         height: 190.3px;
-        margin-left: -1%;
+        margin-left: 2%;
         margin-right: 8%;
     }
 
@@ -702,32 +702,32 @@ li
 
     #vignette-photo-2
     {
-        width: 93.5%;
-        height: 190px;
-        margin-left: 2%;
+        width: 96%;
+    height: 190px;
+    margin-left: 5%;
     }
 
     #vignette-photo-3 {
         height: 190px;
         margin-top: 0%;
         margin-right: 2%;
-        width: 94%;
-        margin-left: -6%;
+        width: 96%;
+        margin-left: -5%;
         margin-bottom: 3%;
     }
 
     #vignette-photo4
     {
-        width: 102%;
+        width: 94.5%;
         height: 190.3px;
-        margin-left: -1%;
+        margin-left: 1.8%;
     }
     
     .groupe-vignettes-5-6
     {
         height: 190.3px;
-        width: 94%;
-        margin-left: 2%;
+        width: 95%;
+        margin-left: 4%;
         margin-bottom: -10%;
     }
     
@@ -740,6 +740,8 @@ li
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 99%;
+        margin-left: 3%;
     }
     footer
     {
