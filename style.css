@@ -169,10 +169,17 @@ input, ::placeholder
     padding-right: 1em;
 }
 
+#element-filtre
+{
+    font-family: 'Raleway';
+    font-weight: 800;
+}
+
 .police-des-filtres
 {
     font-family: 'Raleway';
     font-weight: 800;
+    padding-left: 5%;
 }
 
 .icone
@@ -484,11 +491,9 @@ li
         display: flex;
     }
         
-    
-    
     header
     {
-        width: 375px;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: space-between;
@@ -499,40 +504,88 @@ li
     #logo-reservia
     {
         width: 25%;
+        margin-bottom: -1%;
     }
     nav
     {
-        width: 62%;
+        width: 74%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: -4%;
     }
 
     nav ul
     {
-        width: 70%;
+        width: 103%;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        margin-top: 4%;
+        margin-left: -18%;
+        margin-bottom: 7%;
     }
 
     ul
     {
         flex-wrap: wrap;
         width: 100%;
+        margin-left: -20%;
+        margin-bottom: 6%;
     }
 
-    li
+    #hebergement 
     {
-        margin-left: 9%;
+        border-bottom: rgb(0, 101, 252) 2.5px solid;
+        border-top: none;
+        padding-bottom: 10%;
+        margin-left: -125%;
+        padding-left: 33%;
+        padding-right: 20%;
     }
-    ul.children:last-of-type{order: 1;}
+    
+    #activites
+    {
+        margin-left: -76%;
+    }
+
+    #sinscrire
+    {
+        margin-left: 100%;
+    }
+    #section1
+    {
+        margin-top: 13%;
+        margin-bottom: 13%;
+    }
+    
+    h1
+    {
+        margin-bottom: 4%;
+    }
+
+    #bullederecherche {
+        margin-top: 11.5%;
+        margin-bottom: 11.5%;
+    }
 
     #presentation_filtres
     {
+        width: 100%;
         flex-wrap: wrap;
+        margin-bottom: 56%;
     }
-
+    #element-filtre
+    {
+        width: 100%;
+        margin-bottom: 3%;
+        margin-left: 1%;
+    }
+        
     .police-des-filtres
     {
         width: 100%;
-        margin-bottom: 4%;
+        margin-bottom: 6%;
     }
 
     #filtre_economique
@@ -551,10 +604,13 @@ li
         margin-bottom: 4%;
     }
     #filtre_animals {
-        WIDTH: 57%;
+        width: 57%;
     }
     
-    
+    .elements-en-police-legere
+    {
+
+    }
 
     #section2 
     {
@@ -565,17 +621,54 @@ li
     {
         height: auto;
         width: 100%;
+        margin-bottom: 0%;
+        margin-top: 4%;
+        background-color: white;
     }
     .vignettes-article1 {
         width: 100%;
+        height: 190px;
+        box-shadow: 6px 13px 18px rgb(242 242 242);
+        margin-top: 4%;
     }
+
+    .photologement
+    {
+        height: 60%;
+    }
+
+    .positionnement-h3-article1
+    {
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+
+    .positionnement-etoiles-article1
+    {
+        margin-top: 1%;
+    }
+
     aside {
         width: 100%;
         height: 100%;
+        border-radius: inherit;
+        padding-bottom: 9%;
+        margin-top: -2%;
     }
     .vignettes-aside {
         width: 92%;
     }
+
+    #placement-titre-aside {
+        width: 94%;
+    }
+
+    #section3
+    {
+        margin-top: 4%;
+        margin-bottom: 17%;
+    }
+
     #articleactivites
     {
         height: 100%;
@@ -585,42 +678,73 @@ li
     
     .groupe-vignettes-1-4
     {
-        background-color: red;
-        padding: 3px;
+        padding: 0px;
         margin: 2%;
     }
     #vignette-photo1
     {
-        width: auto;
+        width: 102%;
         height: 190.3px;
+        margin-left: -1%;
+        margin-right: 8%;
     }
+
+    .grande-photo {
+        height: 78.5%;
+        width: 100%;
+    }
+
+    .photosactivites
+    {
+        width: 100%;
+        height: 76%;
+    }
+
     #vignette-photo-2
     {
-        width: 375px;
-        height: 190.3px;
+        width: 93.5%;
+        height: 190px;
+        margin-left: 2%;
     }
+
+    #vignette-photo-3 {
+        height: 190px;
+        margin-top: 0%;
+        margin-right: 2%;
+        width: 94%;
+        margin-left: -6%;
+        margin-bottom: 3%;
+    }
+
     #vignette-photo4
     {
-        width: auto;
+        width: 102%;
         height: 190.3px;
+        margin-left: -1%;
     }
-    #vignette4
-    {
-        width: auto;
-        height: 190.3px;
-    }
-    
     
     .groupe-vignettes-5-6
     {
         height: 190.3px;
+        width: 94%;
+        margin-left: 2%;
+        margin-bottom: -10%;
     }
     
+    #vignette-photo-6 {
+        margin-top: 3.3em;
+    }
+
     .regroupement-de-vignettes
     {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    footer
+    {
+        padding-bottom: 12%;
+        margin-top: 3%;
     }
     #description_footer
     {
@@ -628,7 +752,16 @@ li
         flex-direction: column;
     }
 
-
+    li
+    {
+        margin-left: 11%;
+        margin-bottom: -10%;
+        margin-top: 19%;
+    }
+    .mentionslegales {
+        margin-bottom: -15%;
+        margin-top: 14%;
+    }
 
 }
 
