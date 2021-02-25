@@ -3,6 +3,7 @@
 }
 
 
+
 #bloc-page
 {
     width: 1440px ;
@@ -12,6 +13,10 @@
     justify-content: space-between;
 }
 
+img
+{
+   width: fit-content; 
+}
 header
 {
     height: 4%;
@@ -21,6 +26,7 @@ header
     margin-left: 2%;
     margin-top: -1.65%;
 }
+
 #logo-reservia
 {
     margin-top: 2%;
@@ -126,6 +132,11 @@ p
     border-bottom-right-radius: 14px;
     margin-left: 0px;
     padding: 0.6em 1em 0.73em 0.8em
+}
+
+.fa-search
+{
+    color: white;
 }
 
 input, ::placeholder
@@ -482,48 +493,45 @@ li
     margin-top: 10%;
 }
 
-@media all and (max-device-width:375px)
+@media all and (min-width:320px) and (max-device-width:425px)
 {
+    body
+    {
+        margin: 0%;
+    }
     #bloc-page
     {
         height: auto;
         width: 100% ;
-        display: flex;
     }
         
     header
     {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        flex-wrap: wrap;
+        margin-top: -6%;
+        margin-left: 0%;
     }
 
     #logo-reservia
     {
         width: 25%;
-        margin-bottom: -1%;
     }
     nav
     {
         width: 74%;
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: -4%;
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    margin-top: -4%;
     }
 
     nav ul
     {
-        width: 103%;
-        display: flex;
-        flex-wrap: wrap-reverse;
-        flex-direction: row;
-        margin-top: 4%;
-        margin-left: -18%;
-        margin-bottom: 7%;
+        width: 100%;
+    /* display: flex; */
+    flex-wrap: wrap-reverse;
+    /* flex-direction: row; */
+    margin-top: 2%;
+    /* margin-left: -18%; */
     }
 
     ul
@@ -531,7 +539,7 @@ li
         flex-wrap: wrap;
         width: 100%;
         margin-left: -20%;
-        margin-bottom: 6%cd;
+        margin-bottom: 6%;
     }
 
     #hebergement 
@@ -568,7 +576,24 @@ li
         margin-top: 11.5%;
         margin-bottom: 11.5%;
     }
-
+    #recherche
+    {
+        display: none;
+    }
+    .fa-search 
+    {
+        color: white;
+        background-color: blue;
+        margin-left: -3%;
+        padding: 6%;
+        border-radius: 11px;
+        margin-right: -18%;
+        padding-left: 9%;
+        padding-right: 8%;
+        padding-bottom: 7.4%;
+        padding-top: 6.2%;
+        display: run-in;
+    }
     #presentation_filtres
     {
         width: 100%;
@@ -745,8 +770,9 @@ li
     }
     footer
     {
-        padding-bottom: 12%;
-        margin-top: 3%;
+        padding-bottom: 8%;
+    margin-top: 3%;
+    padding-top: 8%;
     }
     #description_footer
     {
@@ -760,18 +786,24 @@ li
         margin-bottom: -10%;
         margin-top: 19%;
     }
+    .positionnement-elements-liste-footer
+    {
+        margin-top: 4%;
+        margin-bottom: 1%;
+    }
     .mentionslegales {
-        margin-bottom: -15%;
-        margin-top: 14%;
+        margin-bottom: 6%;
+        margin-top: 0%;
     }
 
 }
 
-@media all and (min-width: 376px) and (max-width: 768px)
+@media all and (min-width:426px) and (max-width:1024px)
 {
+    body{width: 100%;}
     #bloc-page
     {
-        height: auto;
+        
         width: 100% ;
         display: flex;
     }
@@ -790,14 +822,12 @@ li
         width: 17%;
     margin-bottom: 0%;
     margin-top: 6%;
-}
     }
     nav
     {
         width: 74%;
         flex-wrap: wrap;
         display: flex;
-        flex-direction: row-reverse;
         margin-top: -4%;
         margin-right: 0%;
     }
@@ -1065,3 +1095,5 @@ li
     }
 
 }
+
+
