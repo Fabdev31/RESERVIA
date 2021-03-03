@@ -528,7 +528,7 @@ li
     margin-top: 10%;
 }
 
-@media all and (min-width: 320px)
+@media all and (min-width: 320px) and (max-width: 495px)
 {
     body
     {
