@@ -62,9 +62,9 @@ ul
 
 #hebergement
 {
-   color:rgb(64, 139, 253);
+   color:#0065FC;
    text-decoration: none;
-   border-top:rgb(0, 101, 252) 2.5px solid;
+   border-top:#0065FC 2.5px solid;
    padding-top: 1.9em;
    padding-left: 1.2em;
    padding-right: 1.2em;
@@ -72,7 +72,7 @@ ul
 
 #inscription
 {
-    color: rgb(64, 139, 253);
+    color: #0065FC;
     font-weight: 600;
     text-decoration: none;
 }
@@ -114,7 +114,7 @@ p
 .icone-map
 {
     color: black;
-    background-color: rgb(242, 242, 242);
+    background-color: #F2F2F2;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 0.79em 01em 0.85em 1.2em;
@@ -123,7 +123,7 @@ p
 #recherche
 {
     color: white;
-    background-color: rgb(0, 101, 252);
+    background-color: #0065FC;
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
     margin-left: 0px;
@@ -160,7 +160,7 @@ input, ::placeholder
 
 .icone-grisee
 {
-    color: rgb(217, 217, 217);
+    color: #F2F2F2;
 }
 
 #presentation_filtres
@@ -181,7 +181,7 @@ input, ::placeholder
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: rgb(242, 242, 242) solid 2px;
+    border: #F2F2F2 solid 2px;
     border-radius: 25px;
     padding-right: 1em;
 }
@@ -201,7 +201,7 @@ input, ::placeholder
 
 .icone
 {
-    background-color: rgb(222, 235, 255);
+    background-color: #F2F2F2;
     border-radius: 50%;
     padding: 0.89em 0.79em;
 }
@@ -213,7 +213,7 @@ input, ::placeholder
 }
 #filtre_economique:hover
 {
-    background-color: cornflowerblue;
+    background-color: #DEEBFF;
 }
 
 #filtre_family
@@ -222,7 +222,7 @@ input, ::placeholder
 }
 #filtre_family:hover
 {
-    background-color: cornflowerblue;
+    background-color: #DEEBFF;
 }
 
 #filtre_romantic
@@ -231,7 +231,7 @@ input, ::placeholder
 }
 #filtre_romantic:hover
 {
-    background-color: cornflowerblue;
+    background-color: #DEEBFF;
 }
 
 #filtre_animals
@@ -240,16 +240,16 @@ input, ::placeholder
 }
 #filtre_animals:hover
 {
-    background-color: cornflowerblue;
+    background-color: #DEEBFF;
 }
 
 i
 {
-    color:rgb(0, 101, 252);
+    color:#0065FC;
 }
 .icone-information-section1
 {
-    border: rgb(242, 242, 242) solid 2px;
+    border: #F2F2F2 solid 2px;
     border-radius: 50%;
     margin-right: 1em;
     padding: 0.2em 0.5em;
@@ -281,7 +281,7 @@ i
     width: 61%;
     height: 100%;
     border-radius: 20px;
-    background-color: rgb(242, 242, 242);
+    background-color: #F2F2F2;
     margin: auto;
 }
 
@@ -354,7 +354,7 @@ h3
 
 aside
 {
-    background-color: rgb(242, 242, 242);
+    background-color: #F2F2F2;
     width: 33.2%;
     height: 100%;
     border-radius: 20px;
@@ -422,7 +422,7 @@ aside
     width: 300px;
     height: 436px;
     border-radius: 20px;
-    box-shadow: 6px 6px 6px rgb(242, 242, 242);
+    box-shadow: 6px 6px 6px #F2F2F2;
     
 }
 #vignette-photo1
@@ -441,7 +441,7 @@ aside
     width: 300px;
     margin-left: 14%;
     border-radius: 20px;
-    box-shadow: 6px 6px 6px rgb(242, 242, 242);
+    box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 #vignette-photo-2
@@ -461,7 +461,7 @@ aside
     width: 300px;
     height: 190.9px;
     border-radius: 20px;
-    box-shadow: 6px 6px 6px rgb(242, 242, 242);
+    box-shadow: 6px 6px 6px #F2F2F2;
     margin-left: 6%;
 }
 
@@ -508,7 +508,7 @@ footer
     font-style: normal;
     height: 11.8%;
     padding-top: 2.5%;
-    background-color: rgb(242, 242, 242);
+    background-color: #F2F2F2;
 }
 
 #description_footer
@@ -577,7 +577,7 @@ li
 
     #hebergement 
     {
-        border-bottom: rgb(0, 101, 252) 2.5px solid;
+        border-bottom: #0065FC 2.5px solid;
         border-top: none;
         padding-bottom: 10%;
         margin-left: -125%;
