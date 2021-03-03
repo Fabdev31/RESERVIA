@@ -15,7 +15,7 @@
 
 img
 {
-   width: fit-content; 
+   object-fit: cover; 
 }
 header
 {
@@ -255,6 +255,12 @@ i
     padding: 0.2em 0.5em;
 }
 
+#texte-sous-les-filtres
+{
+    display: flex;
+    align-items: flex-start;
+}
+
 #section2
 {
     display: flex;
@@ -385,9 +391,15 @@ aside
 {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    height: 100%;
 }
 
 .positionnement-etoile-aside
+{
+    margin-top: 2.5em;
+}
+
+#positionnement-etoile2-aside
 {
     margin-top: 2.5em;
 }
@@ -463,12 +475,29 @@ aside
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;
+    height: 66%;
 }
+
+#photo-2-activite
+{
+    height: 180px;
+}
+
+#photo-5-activite
+{
+    height: 138px;
+}
+
+#photo-6-activite
+{
+    height: 136px;
+}
+
 .grande-photo
 {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 87.5%;
+    height: 382px;
     width: 100%;
 }
 
@@ -499,7 +528,7 @@ li
     margin-top: 10%;
 }
 
-@media all and (min-width:320px) and (max-device-width:495px)
+@media all and (min-width: 320px)
 {
     body
     {
@@ -512,7 +541,7 @@ li
     }
     img
     {
-        width: fit-content;
+        object-fit: cover;
     }  
     
     header
@@ -587,7 +616,7 @@ li
 
     #icone-loupe 
     {
-        display: -webkit-inline-box;
+        display:inline-block;
     }
     #presentation_filtres
     {
@@ -605,7 +634,6 @@ li
     .police-des-filtres
     {
         width: 100%;
-        margin-bottom: 6%;
     }
 
     #filtre_economique
@@ -637,11 +665,6 @@ li
         margin-right: 11%;
     }
     
-    .icone-information-section1
-    {
-        float: left;
-    }
-
     #section2 
     {
         flex-direction: column-reverse;
@@ -707,6 +730,10 @@ li
         flex-direction: column;
     }
     
+    h3
+    {
+        margin-top: 3%;
+    }
     .groupe-vignettes-1-4
     {
         padding: 0px;
@@ -720,8 +747,9 @@ li
         margin-right: 8%;
     }
 
-    .grande-photo {
-        height: 78.5%;
+    .grande-photo 
+    {
+        height: 76%;
         width: 100%;
     }
 
@@ -731,35 +759,41 @@ li
         height: 76%;
     }
 
+    #photo-2-activite
+    {
+        height: 76%;
+    }
+
     #vignette-photo-2
     {
         width: 96%;
-        height: 190px;
-        margin-left: 5%;
+        height: 190.3px;
+        margin-left: 4.2%;
     }
 
     #vignette-photo-3 {
-        height: 190px;
-        margin-top: 0%;
-        margin-right: 2%;
+        height: 190.3px;
+        margin-top: 2%;
+        margin-right: 6.9%;
         width: 96%;
-        margin-left: -5%;
+        margin-left: 0%;
         margin-bottom: 3%;
     }
 
     #vignette-photo4
     {
-        width: 94.5%;
+        width: 96%;
         height: 190.3px;
         margin-left: 1.8%;
+        margin-top: 3%;
     }
     
     .groupe-vignettes-5-6
     {
         height: 190.3px;
-        width: 95%;
-        margin-left: 4%;
-        margin-bottom: -10%;
+        width: 96%;
+        margin-left: 4.5%;
+        margin-bottom: -7%;
     }
     
     #vignette-photo-6 {
@@ -771,7 +805,7 @@ li
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 99%;
+        width: 100%;
         margin-left: 3%;
     }
     footer
@@ -815,7 +849,7 @@ li
         
     img
     {
-        width: fit-content;
+        object-fit: cover;
     }
     header
     {
@@ -890,7 +924,6 @@ li
     .police-des-filtres
     {
         width: 100%;
-        margin-bottom: 6%;
     }
     .agencement-filtres
     {
@@ -916,17 +949,14 @@ li
         padding-right: 4%;
         margin-right: 83%;
     }
-    #filtre_animals {
+
+    #filtre_animals 
+    {
         width: 221px;
         margin-left: 0%;
         margin-right: 0%;
         margin-top: 4%;
         padding-right: 0%;
-    }
-    
-    .icone-information-section1
-    {
-        float: left;
     }
 
     #section2 
@@ -964,6 +994,7 @@ li
     {
         margin-top: 1%;
         margin-bottom: 0%;
+        margin-right: 1%;
     }
 
     .positionnement-etoiles-article1
@@ -980,19 +1011,39 @@ li
     {
         width: 100%;
         padding-bottom: 5%;
-        align-items: flex-start;
-    }
-
-    .vignettes-aside 
-    {
-        width: 55%;
+        align-items: center;
     }
 
     #placement-titre-aside 
     {
-        width: 56%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 0%;
         height: auto;
+    }
+    .photos-vignettes-aside
+    {
+        width: 200px;
+        height: 150px;
+    }
+
+    .positionnement-legende-aside
+    {
+        margin-left: 11%;
+    }
+    .positionnement-h3-aside
+    {
+        margin-right: 0%;
+        margin-top: 4%;
+    }
+    .positionnement-etoile-aside
+    {
+        margin-top: 42%;
+    }
+
+    
+    #positionnement-etoile2-aside 
+    {
+    margin-top: 25%;
     }
 
     #section3
@@ -1027,6 +1078,10 @@ li
         height: 76%;
     }
 
+    #photo-6-activite
+    {
+    height: 147px;
+    }
     .regroupement-de-vignettes
     {
         display: flex;
