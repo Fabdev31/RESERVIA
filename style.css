@@ -6,8 +6,8 @@
 
 #bloc-page
 {
-    width: 1440px ;
-    height: 1884px;
+    width: 100% ;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,27 +19,36 @@ img
 }
 header
 {
-    height: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 2%;
-    margin-top: -1.65%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 4%;
 }
 
 #logo-reservia
 {
-    margin-top: 2%;
-    width: 6%;
+    margin-top: 15px;
+    width: 86px;
+    margin-left: 2%;
+    position: absolute;
+    top: 19px;
 }
+ nav
+ {
+     width:60%;
+     margin-left: 0%;
+     margin-right: 9%;
+ }
 
 nav ul
 {
     font-family:'Raleway';
-    width: 400px; 
+    width: 100%; 
     display: flex;
-    justify-content: space-around;
-    margin-left: -20%;
+    justify-content: flex-end;
+    margin-top: 0%;
 }
 
 ul
@@ -58,16 +67,22 @@ ul
 {
     color: black;
     text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 161px;
 }
 
 #hebergement
 {
-   color:#0065FC;
-   text-decoration: none;
-   border-top:#0065FC 2.5px solid;
-   padding-top: 1.9em;
-   padding-left: 1.2em;
-   padding-right: 1.2em;
+    color: #0065FC;
+    text-decoration: none;
+    border-top: #0065FC 2.5px solid;
+    padding-top: 38px;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    position: absolute;
+    top: 0px;
+    right: 258px;
 }
 
 #inscription
@@ -75,6 +90,10 @@ ul
     color: #0065FC;
     font-weight: 600;
     text-decoration: none;
+    margin-left: 42%;
+    position: absolute;
+    right: 35px;
+    top: 40px;
 }
 
 h1
@@ -169,7 +188,7 @@ input, ::placeholder
     font-weight: bold;
     margin-top: 3%;
     margin-bottom: 2em;
-    width: 70%;
+    width: 100%;
     height: 2.5em;
     display: flex;
     justify-content: space-between;
@@ -208,8 +227,7 @@ input, ::placeholder
 
 #filtre_economique
 {
-   
-    width: 15.9%; 
+    width: 141px; 
 }
 #filtre_economique:hover
 {
@@ -218,7 +236,7 @@ input, ::placeholder
 
 #filtre_family
 {
-    width: 11.2%;
+    width: 100px;
 }
 #filtre_family:hover
 {
@@ -227,7 +245,7 @@ input, ::placeholder
 
 #filtre_romantic
 {
-    width: 15.2%;
+    width: 130px;
 }
 #filtre_romantic:hover
 {
@@ -236,7 +254,7 @@ input, ::placeholder
 
 #filtre_animals
 {
-    width: 20.6%;
+    width: 200px;
 }
 #filtre_animals:hover
 {
@@ -283,6 +301,7 @@ i
     border-radius: 20px;
     background-color: #F2F2F2;
     margin: auto;
+    margin-top: 0%;
 }
 
 .vignettes-article1
@@ -838,7 +857,7 @@ li
 
 }
 
-@media all and (min-width:496px) and (max-width:850px)
+@media all and (min-width:496px) and (max-width:900px)
 {
     body{width: 100%;}
     #bloc-page
