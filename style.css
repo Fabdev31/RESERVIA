@@ -1,4 +1,5 @@
-@font-face {
+@font-face 
+{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -11,9 +12,9 @@ body
 
 #bloc-page
 {
+    width:100%;
     display: flex;
     flex-direction: column;
-
 }
 
 img
@@ -64,7 +65,7 @@ ul
 {
     color:rgb(16, 16, 16);
     text-decoration: none;
-    margin-left: 4%;
+    margin-left: 6%;
     margin-bottom: 1%;
 }
 
@@ -596,12 +597,13 @@ li
     margin-top: 10%;
 }
 
-@media all and (min-width: 320px) and (max-width: 495px)
+@media all and (min-width: 320px)
 {
     body
     {
         margin: 0%;
     }
+
     #bloc-page
     {
         height: auto;
@@ -615,7 +617,8 @@ li
     header
     {
         margin-top: -6%;
-        margin-left: 0%;
+        margin-left: 2%;
+        width:100%;
     }
 
     #logo-reservia
@@ -662,15 +665,23 @@ li
     {
         margin-left: 100%;
     }
+
     #section1
     {
         margin-top: 13%;
         margin-bottom: 13%;
+        width:95%;
     }
     
     h1
     {
         margin-bottom: 4%;
+        font-size:1em;
+    }
+
+    h2
+    {
+        font-size: 1em;
     }
 
     #bullederecherche {
@@ -736,6 +747,8 @@ li
     #section2 
     {
         flex-direction: column-reverse;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     #groupe-de-vignettes-article1
@@ -776,19 +789,36 @@ li
         border-radius: inherit;
         padding-bottom: 9%;
         margin-top: -2%;
+        margin-left: 0%;
+        align-items: flex-start;
     }
+    #ensemble-des-vignettes-aside {
+        width: 100%;
+        margin-left: -6%;
+        margin-right: 1%;  
+    }
+
     .vignettes-aside {
-        width: 92%;
+        width: 90%;
     }
 
     #placement-titre-aside {
-        width: 94%;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 12%;
+        font-size: 1em;
+        margin-left: 15%;
+        width: 90%;
     }
 
     #section3
     {
         margin-top: 4%;
         margin-bottom: 17%;
+        height: auto;
+        margin-right: 4%;
+        margin-left: 4%;
     }
 
     #articleactivites
@@ -797,7 +827,11 @@ li
         flex-wrap: wrap;
         flex-direction: column;
     }
-    
+    #Placement-h2-section3
+    {
+        margin-left: 2%;
+    }
+
     h3
     {
         margin-top: 3%;
@@ -809,10 +843,10 @@ li
     }
     #vignette-photo1
     {
-        width: 95%;
+        width: 92%;
         height: 190.3px;
-        margin-left: 2%;
-        margin-right: 8%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     .grande-photo 
@@ -834,38 +868,51 @@ li
 
     #vignette-photo-2
     {
-        width: 96%;
+        width: 92%;
         height: 190.3px;
-        margin-left: 4.2%;
+        margin-left: 0%;
+        margin-right: 8%;
     }
 
     #vignette-photo-3 {
         height: 190.3px;
         margin-top: 2%;
-        margin-right: 6.9%;
-        width: 96%;
-        margin-left: 0%;
+        width: 92%;
         margin-bottom: 3%;
+        margin-right: 7%;
     }
 
     #vignette-photo4
     {
-        width: 96%;
+        width: 92%;
         height: 190.3px;
-        margin-left: 1.8%;
         margin-top: 3%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     
+    #vignette-photo-5
+    {
+        width: 92%;
+        height: 208px;
+        margin-bottom: -7%;
+        margin-left: 0%;
+        margin-right: 8%;
+    }
     .groupe-vignettes-5-6
     {
-        height: 190.3px;
-        width: 96%;
-        margin-left: 4.5%;
-        margin-bottom: -7%;
+        width: 92%;
+        margin-top: 1.3em;
+        margin-left: 3%;
+        margin-right: 0%;
     }
     
-    #vignette-photo-6 {
+    #vignette-photo-6 
+    {
+        width: 92%;
         margin-top: 3.3em;
+        margin-left: 0%;
+        margin-right: 8%;
     }
 
     .regroupement-de-vignettes
@@ -874,7 +921,8 @@ li
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-left: 3%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     footer
     {
@@ -908,7 +956,11 @@ li
 
 @media all and (min-width:496px) and (max-width:1025px)
 {
-    body{width: 100%;}
+    body
+    {
+        width: 100%;
+    }
+
     #bloc-page
     {
         width: 100% ;
@@ -919,6 +971,7 @@ li
     {
         object-fit: cover;
     }
+
     header
     {
         width: 100%;
@@ -932,6 +985,7 @@ li
         margin-top: 0%;
         margin-bottom: 2%;
     }
+
     nav
     {
         width: 77%;
@@ -946,7 +1000,6 @@ li
         margin-left: 0%;
         padding-left: 0%;
     }
-
 
     #hebergement 
     {
@@ -964,6 +1017,7 @@ li
     {
         margin-left: 10%;
     }
+
     #section1
     {
         margin-top: 3%;
@@ -982,6 +1036,7 @@ li
         flex-wrap: wrap;
         margin-bottom: 230px;
     }
+
     #element-filtre
     {
         width: 100%;
@@ -993,16 +1048,19 @@ li
     {
         width: 100%;
     }
+
     .agencement-filtres
     {
         flex-direction: row;
     }
+
     #filtre_economique
     {
         width: 111px;
         margin-left: 0%;
         margin-right: 0%;
     }
+
     #filtre_family
     {
         width: 80px;
@@ -1010,7 +1068,8 @@ li
         margin-right: 27%;
     }
 
-    #filtre_romantic {
+    #filtre_romantic 
+    {
         width: 151px;
         margin-left: 0%;
         margin-top: 4%;
@@ -1042,11 +1101,14 @@ li
         background-color: white;
     }
 
-    #placement-h2-section2 {
+    #placement-h2-section2 
+    {
         margin-top: 2%;
         margin-bottom: -2%;
     }
-    .vignettes-article1 {
+
+    .vignettes-article1 
+    {
         width: 44%;
         box-shadow: 6px 13px 18px rgb(242 242 242);
         margin-top: 5%;
@@ -1088,6 +1150,7 @@ li
         margin-left: 0%;
         height: auto;
     }
+
     .photos-vignettes-aside
     {
         width: 200px;
@@ -1098,16 +1161,17 @@ li
     {
         margin-left: 11%;
     }
+
     .positionnement-h3-aside
     {
         margin-right: 0%;
         margin-top: 4%;
     }
+
     .positionnement-etoile-aside
     {
         margin-top: 42%;
     }
-
     
     #positionnement-etoile2-aside 
     {
@@ -1150,6 +1214,7 @@ li
     {
     height: 147px;
     }
+
     .regroupement-de-vignettes
     {
         display: flex;
@@ -1159,6 +1224,7 @@ li
         flex-wrap: wrap;
         margin-bottom: 2%;
     }
+
     .groupe-vignettes-2-3
     {
         margin-left: 1%;
@@ -1225,6 +1291,7 @@ li
         padding-bottom: 3%;
         margin-top: 4%;
     }
+
     #description_footer
     {
         display: flex;
@@ -1237,16 +1304,18 @@ li
         margin-bottom: 6%;
         margin-top: 19%;
     }
-    .mentionslegales {
+
+    .mentionslegales 
+    {
         margin-bottom: 0%;
         margin-top: 0%;
     }
+
     .positionnement-elements-liste-footer
     {
         margin-bottom: 0%;
         margin-top: 2%;
     }
-}
 }
 
 
