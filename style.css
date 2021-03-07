@@ -59,6 +59,8 @@ ul
 {
     color:rgb(16, 16, 16);
     text-decoration: none;
+    margin-left: 4%;
+    margin-bottom: 1%;
 }
 
 #activite
@@ -118,7 +120,7 @@ p
 }
 #section1
 {
-    width: 96%;
+    width: 100%;
     margin-left: 2%;
     margin-bottom: 3%;
 }
@@ -289,8 +291,9 @@ i
 
 #placement-h2-section2
 {
-    margin-top: 5%;
     margin-left: 4%;
+    margin-bottom: 2%;
+    margin-top: 7%;
 }
 
 #groupe-de-vignettes-article1
@@ -299,12 +302,12 @@ i
     flex-wrap: wrap;
     justify-content: center;
     width: 60%;
-    height: 454px;
     border-radius: 20px;
     background-color: #F2F2F2;
     margin: auto;
     margin-top: auto;
     margin-top: 0%;
+    padding-bottom: 4.1%;
 }
 
 .vignettes-article1
@@ -357,8 +360,6 @@ h2
 {
     font-family: 'Raleway';
     font-weight: 800;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     margin-left: 2%;
     margin-bottom: 0%;
@@ -368,7 +369,7 @@ h3
 {
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin-top: 4%;
     margin-bottom: 2%;
     margin-right: 9%;
@@ -389,8 +390,11 @@ aside
 
 #placement-titre-aside
 {
-    width: 80%;
-    margin-bottom: 0%;
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12%;
 }
 
 #icone-titre-aside
@@ -451,7 +455,8 @@ aside
 #section3
 {
     width: 100%;
-    height: 28%;
+    margin-top: 2%;
+    margin-bottom: -18%;
 }
 
 #articleactivites
@@ -463,55 +468,59 @@ aside
 
 .groupe-vignettes-1-4
 {
-    width: 300px;
-    height: 436px;
+    width: 25%;
     border-radius: 20px;
     box-shadow: 6px 6px 6px #F2F2F2;
-    
+    height:326px;
 }
 #vignette-photo1
 {
-    margin-left: 2%;
-    margin-right: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 25%;
 }
 
 #vignette-photo4
 {
-    margin-left: 5%;
+    margin-left: 0%;
+    margin-right: 4%;
+}
+
+.regroupement-de-vignettes
+{
+    width:25%;
+    margin-right:4%;
 }
 
 .groupe-vignettes-2-3
 {
-    width: 300px;
-    margin-left: 14%;
+    width: 100%;
+    margin-left: 0%;
     border-radius: 20px;
     box-shadow: 6px 6px 6px #F2F2F2;
-}
-
-#vignette-photo-2
-{
-    height: 232px;
+    height: 29%;
 }
 
 #vignette-photo-3
 {
-    height: 163.6px;
-    margin-top: 2.6em;
-    margin-right: 16%;
+    margin-top: 15%;
+    margin-right: 0%;
+    height: 23.5%;
 }
 
 .groupe-vignettes-5-6
 {
-    width: 300px;
-    height: 190.9px;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 6px 6px 6px #F2F2F2;
-    margin-left: 6%;
+    margin-left: 0%;
+    height: 26.1%;
 }
 
 #vignette-photo-6
 {
-    margin-top: 3.3em;
+    margin-top: 16%;
+    width: 100%;
 }
 
 .photosactivites
@@ -519,40 +528,30 @@ aside
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;
-    height: 66%;
-}
-
-#photo-2-activite
-{
-    height: 180px;
-}
-
-#photo-5-activite
-{
-    height: 138px;
-}
-
-#photo-6-activite
-{
-    height: 136px;
+    height: 69%;
 }
 
 .grande-photo
 {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 382px;
+    height: 87.5%;
     width: 100%;
 }
-
+#photo-2-activite
+{
+    height: 73%;
+}
 
 footer
 {
     font-family: 'Raleway';
     font-style: normal;
-    height: 11.8%;
+    font-size: 0.7em;
     padding-top: 2.5%;
     background-color: #F2F2F2;
+    padding-bottom: 4%;
+    margin-top: 1%;
 }
 
 #description_footer
@@ -565,6 +564,7 @@ footer
 .mentionslegales
 {
     font-weight: bold;
+    margin-top: 0%;
 }
 
 li
