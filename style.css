@@ -2,13 +2,18 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body
+{
+    margin:0%;
+    overflow-x: hidden;
+}
 
 
 #bloc-page
 {
-    width: 1026px;
     display: flex;
     flex-direction: column;
+
 }
 
 img
@@ -20,8 +25,9 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 0%;
-    margin-top: 0%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 0.4%;
     margin-bottom: 3%;
 }
 
@@ -29,15 +35,14 @@ header
 {
     margin-top: 15px;
     width: 86px;
-    margin-left: 2%;
-    position: absolute;
-    top: 19px;
+    margin-left: 0%;
 }
  nav
  {
-     width:60%;
-     margin-left: 0%;
-     margin-right: 9%;
+    width:36%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
  }
 
 nav ul
@@ -45,7 +50,7 @@ nav ul
     font-family:'Raleway';
     width: 100%; 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-top: 0%;
 }
 
@@ -67,9 +72,6 @@ ul
 {
     color: black;
     text-decoration: none;
-    position: absolute;
-    top: 40px;
-    right: 161px;
 }
 
 #hebergement
@@ -80,9 +82,6 @@ ul
     padding-top: 38px;
     padding-left: 1.2em;
     padding-right: 1.2em;
-    position: absolute;
-    top: 0px;
-    right: 258px;
 }
 
 #inscription
@@ -90,10 +89,7 @@ ul
     color: #0065FC;
     font-weight: 600;
     text-decoration: none;
-    margin-left: 42%;
-    position: absolute;
-    right: 35px;
-    top: 40px;
+    margin-left: 0%;
 }
 
 h1
@@ -121,7 +117,8 @@ p
 #section1
 {
     width: 100%;
-    margin-left: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-bottom: 3%;
 }
 
@@ -287,13 +284,17 @@ i
 {
     display: flex;
     height: 51%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 #placement-h2-section2
 {
     margin-left: 4%;
-    margin-bottom: 2%;
-    margin-top: 7%;
+    margin-bottom: 1%;
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 #groupe-de-vignettes-article1
@@ -385,7 +386,7 @@ aside
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: auto;
+    margin-left: 3%;
 }
 
 #placement-titre-aside
@@ -395,6 +396,7 @@ aside
     display: flex;
     justify-content: space-around;
     margin-top: 12%;
+    margin-left: 0%;
 }
 
 #icone-titre-aside
@@ -456,7 +458,8 @@ aside
 {
     width: 100%;
     margin-top: 2%;
-    margin-bottom: -18%;
+    margin-bottom: 4%;
+    height: 532px;
 }
 
 #articleactivites
@@ -471,19 +474,20 @@ aside
     width: 25%;
     border-radius: 20px;
     box-shadow: 6px 6px 6px #F2F2F2;
-    height:326px;
 }
 #vignette-photo1
 {
     margin-left: 4%;
     margin-right: 4%;
     width: 25%;
+    height: 452px;
 }
 
 #vignette-photo4
 {
     margin-left: 0%;
     margin-right: 4%;
+    height: 452px;
 }
 
 .regroupement-de-vignettes
@@ -500,12 +504,16 @@ aside
     box-shadow: 6px 6px 6px #F2F2F2;
     height: 29%;
 }
+#vignette-photo-2
+{
+    height: 261px;
+}
 
 #vignette-photo-3
 {
-    margin-top: 15%;
+    margin-top: 35px;
     margin-right: 0%;
-    height: 23.5%;
+    height: 156px;
 }
 
 .groupe-vignettes-5-6
@@ -516,11 +524,17 @@ aside
     margin-left: 0%;
     height: 26.1%;
 }
+#vignette-photo-5
+{
+    width: 100%;
+    height: 208px;
+}
 
 #vignette-photo-6
 {
-    margin-top: 16%;
+    margin-top: 38px;
     width: 100%;
+    height: 208px;
 }
 
 .photosactivites
@@ -528,19 +542,29 @@ aside
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;
-    height: 69%;
+    height: 93px;
 }
 
 .grande-photo
 {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 87.5%;
+    height: 390px;
     width: 100%;
 }
 #photo-2-activite
 {
-    height: 73%;
+    height: 205px;
+}
+
+#photo-5-activite
+{
+    height:150px;
+}
+
+#photo-6-activite
+{
+    height:150px;
 }
 
 footer
@@ -882,7 +906,7 @@ li
 
 }
 
-@media all and (min-width:496px) and (max-width:900px)
+@media all and (min-width:496px) and (max-width:1025px)
 {
     body{width: 100%;}
     #bloc-page
@@ -1222,6 +1246,7 @@ li
         margin-bottom: 0%;
         margin-top: 2%;
     }
+}
 }
 
 
