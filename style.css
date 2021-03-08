@@ -9,7 +9,6 @@ body
     overflow-x: hidden;
 }
 
-
 #bloc-page
 {
     width:100%;
@@ -115,6 +114,9 @@ p
     font-family: 'Raleway';
     font-weight: 400;
 }
+
+/*Fin de la partie Header*/
+
 #section1
 {
     width: 100%;
@@ -455,6 +457,10 @@ aside
     margin-left: 1%;
     margin-right: -4%;
 }
+
+
+/* Début SECTION 3  */
+
 #section3
 {
     width: 100%;
@@ -536,6 +542,8 @@ aside
     margin-top: 38px;
     width: 100%;
     height: 208px;
+    margin-top: 15%;
+    margin-bottom: 0%;
 }
 
 .photosactivites
@@ -597,7 +605,18 @@ li
     margin-top: 10%;
 }
 
-@media all and (min-width: 320px)
+
+/*                  FIN
+
+                DE  LA  PARTIE
+
+
+                DESTOP 
+
+*/                
+
+
+@media all and (max-device-width: 495px)
 {
     body
     {
@@ -759,6 +778,7 @@ li
         margin-top: 4%;
         background-color: white;
     }
+    
     .vignettes-article1 
     {
         width: 100%;
@@ -783,7 +803,8 @@ li
         margin-top: 1%;
     }
 
-    aside {
+    aside 
+    {
         width: 100%;
         height: 100%;
         border-radius: inherit;
@@ -792,17 +813,20 @@ li
         margin-left: 0%;
         align-items: flex-start;
     }
-    #ensemble-des-vignettes-aside {
+    #ensemble-des-vignettes-aside 
+    {
         width: 100%;
         margin-left: -6%;
         margin-right: 1%;  
     }
 
-    .vignettes-aside {
+    .vignettes-aside 
+    {
         width: 90%;
     }
 
-    #placement-titre-aside {
+    #placement-titre-aside 
+    {
         margin-bottom: 2%;
         display: flex;
         justify-content: space-between;
@@ -954,48 +978,48 @@ li
 
 }
 
-@media all and (min-width:496px) and (max-width:1025px)
+/*
+
+
+                    FIN 
+
+                DE LA  PARTIE
+
+                   MOBILE
+
+
+*/
+
+@media all and (min-device-width: 496px) and (max-device-width: 1025px)
 {
     body
     {
-        width: 100%;
-    }
-
-    #bloc-page
-    {
-        width: 100% ;
-        display: flex;
+        margin:8px;
     }
         
-    img
-    {
-        object-fit: cover;
-    }
-
     header
     {
         width: 100%;
-        display: flex;
-        margin-top: 0%;
+        margin-top:16px;
+        margin:0px;
     }
 
     #logo-reservia
     {
-        width: 17%;
-        margin-top: 0%;
-        margin-bottom: 2%;
+        width: 84px;
+        margin:0px;
     }
 
     nav
     {
-        width: 77%;
-        margin-bottom: 9%;
-        margin-right: 3%;
+        width: 200px;
+        margin-bottom: 0px;
+        margin-right: 0px;
     }
 
     nav ul
     {
-        width: 100%;
+        justify-content:flex-end;
         margin-top: 0%;
         margin-left: 0%;
         padding-left: 0%;
@@ -1004,24 +1028,27 @@ li
     #hebergement 
     {
         padding-bottom: 10%;
-        margin-left: 11%;
-        padding-top: 18.4%;
+        padding:0px;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
     }
     
     #activite
     {
-        margin-left: 10%;
+        margin-left: 10px;
     }
 
     #inscription
     {
-        margin-left: 10%;
+        margin-left: 10px;
     }
+
+/*Fin de la partie header*/
 
     #section1
     {
-        margin-top: 3%;
-        margin-bottom: 0%;
+
+        margin:0px;
     }
 
     #bullederecherche 
@@ -1033,8 +1060,9 @@ li
     #presentation_filtres
     {
         width: 100%;
+        height:auto;
         flex-wrap: wrap;
-        margin-bottom: 230px;
+        margin-bottom: 10px;
     }
 
     #element-filtre
@@ -1086,6 +1114,8 @@ li
         padding-right: 0%;
     }
 
+/*Fin de la section 1*/
+
     #section2 
     {
         flex-direction: column;
@@ -1105,11 +1135,12 @@ li
     {
         margin-top: 2%;
         margin-bottom: -2%;
+        margin-left:7%;
     }
 
     .vignettes-article1 
     {
-        width: 44%;
+        width: 40%;
         box-shadow: 6px 13px 18px rgb(242 242 242);
         margin-top: 5%;
         margin-bottom: 0%;
@@ -1135,26 +1166,40 @@ li
     #positionnement-texte-article1 
     {
         margin-top: 3%;
+        margin-left: 7%;
     }
+
+/*Début Aside*/
 
     aside 
     {
         width: 100%;
+        padding: top 5%;
         padding-bottom: 5%;
+        padding-top: 5%;
         align-items: center;
+        margin-top: 4%;
     }
+    #ensemble-des-vignettes-aside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
 
     #placement-titre-aside 
     {
         width: 80%;
         margin-left: 0%;
+        margin-top: 0%;
         height: auto;
+        justify-content: space-between;
     }
 
     .photos-vignettes-aside
     {
-        width: 200px;
-        height: 150px;
+        width: 100%;
+        height: 100%;
     }
 
     .positionnement-legende-aside
@@ -1194,8 +1239,86 @@ li
     
     #vignette-photo1
     {
-        width: 44%;
-        margin-right: 3%;
+        width: 42%;
+        margin-right: 0%;
+        margin-left: 5%;
+        height:380px;
+    }
+
+    .regroupement-de-vignettes
+    {
+        display: flex;
+        align-items: center;
+        width: 42%;
+        margin-left: 4%;
+        flex-wrap: wrap;
+        margin-bottom: 0%;
+        height: auto;
+    }
+
+    .groupe-vignettes-2-3
+    {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #vignette-photo-2
+    {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        height: auto;
+    }
+
+    #vignette-photo-3 
+    {
+        margin-top: 4%;
+        margin-right: 0%;
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        padding-bottom: 3.5%;
+        height: 135px;
+    }
+
+    #vignette-photo4
+    {
+        width: 42%;
+        margin-left: 5%;
+        margin-top: 0%;
+        margin-right: 2.7%;
+        height: auto;
+    }
+    }
+    
+    .groupe-vignettes-5-6
+    {
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+    }
+
+    #vignette-photo-5
+    {
+        margin-left: 0%;
+        margin-bottom: 0%;
+        padding-bottom: 3%;
+        margin-top: 0%;
+        width: 100%;
+        height: auto;
+    }
+
+    #vignette-photo-6 
+    {
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 100%;
+        padding-bottom: 3%;
+        margin-bottom: 0%;
     }
 
     .grande-photo 
@@ -1212,78 +1335,8 @@ li
 
     #photo-6-activite
     {
-    height: 147px;
-    }
-
-    .regroupement-de-vignettes
-    {
-        display: flex;
-        align-items: center;
-        width: 44%;
-        margin-left: 4%;
-        flex-wrap: wrap;
-        margin-bottom: 2%;
-    }
-
-    .groupe-vignettes-2-3
-    {
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-
-    #vignette-photo-2
-    {
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-bottom: 0%;
-        margin-top: 0%;
-    }
-
-    #vignette-photo-3 
-    {
-        margin-top: 0%;
-        margin-right: 0%;
-        width: 100%;
-        margin-left: 0%;
-        margin-bottom: 3%;
-        padding-bottom: 3.5%;
-    }
-
-    #vignette-photo4
-    {
-        width: 44%;
-        margin-left: 2%;
-        margin-top: 2%;
-        margin-right: 2.7%;
-    }
-    
-    .groupe-vignettes-5-6
-    {
-        width: 100%;
-        margin-left: 0%;
-        margin-bottom: 0%;
-        margin-right: 0%;
-        margin-top: 0%;
-    }
-
-    #vignette-photo-5
-    {
-        margin-left: 2%;
-        margin-bottom: 0%;
-        padding-bottom: 3%;
-        margin-top: 2%;
-    }
-
-    #vignette-photo-6 
-    {
-        margin-top: 4%;
-        margin-left: 2%;
-        width: 100%;
-        padding-bottom: 3%;
-        margin-bottom: 4%;
-    }
-
+        height: 165px;
+    }    
     
     footer
     {
@@ -1295,7 +1348,9 @@ li
     #description_footer
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        width:100%;
+        justify-content: space-around;
     }
 
     li
@@ -1317,5 +1372,6 @@ li
         margin-top: 2%;
     }
 }
+
 
 
