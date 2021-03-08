@@ -535,6 +535,7 @@ aside
 {
     width: 100%;
     height: 208px;
+    margin-top:10%;
 }
 
 #vignette-photo-6
@@ -543,6 +544,8 @@ aside
     width: 100%;
     height: 208px;
     margin-top: 15%;
+    margin-top:10%;
+    margin-left:20%;
 }
 
 .photosactivites
