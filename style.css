@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: 'Raleway', sans-serif;
-}
+    src: url ("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600;800&display=swap") format("ttf");}
 
 body
 {
@@ -79,7 +79,7 @@ ul
     color: #0065FC;
     text-decoration: none;
     border-top: #0065FC 2.5px solid;
-    padding-top: 38px;
+    padding-top: 3.25vw;
     padding-left: 1.2em;
     padding-right: 1.2em;
 }
@@ -394,11 +394,11 @@ aside
 
 #placement-titre-aside
 {
-    width: 100%;
-    margin-bottom: 2%;
+    width: 80%;
+    margin-bottom: 3%;
     display: flex;
-    justify-content: space-around;
-    margin-top: 12%;
+    justify-content: space-between;
+    margin-top: 14%;
     margin-left: 0%;
 }
 
@@ -409,53 +409,50 @@ aside
 
 #ensemble-des-vignettes-aside
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
     width: 100%;
 }
+
 .vignettes-aside
 {
     background-color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     border-radius: 20px;
     width: 80%;
     padding: 0.3em;
-    margin-bottom: 3.3% ;
+    margin-bottom: 6%;
+    margin-top: 0%;
 }
 
+a
+{
+    width: 35%;
+}
 .photos-vignettes-aside
 {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    width: 78%;
     height: 100%;
-    width: 80%;
-    margin-top: 0%;
-    margin-bottom: -4%;
-    margin-right: 19px;
-}
-#photo-2-aside
-{
-    width: 89%;
-    margin-right: 30px;
-}
-.positionnement-etoile-aside
-{
-    margin-top: 2.5em;
 }
 
-#positionnement-etoile2-aside
+.positionnement-etoile-aside
 {
-    margin-top: 2.5em;
+    margin-top: 24%;
 }
 
 .positionnement-legende-aside
 {
+    display:flex;
+    flex-direction: column;
     margin-left: 0%;
-    margin-right: 10%;
-}
-
-#positionnement-legende-aside-photo-2
-{
-    margin-left: 1%;
-    margin-right: -4%;
+    margin-right: 0%;
+    width:43%;
 }
 
 
@@ -535,17 +532,14 @@ aside
 {
     width: 100%;
     height: 208px;
-    margin-top:10%;
+    margin-top: 15px;
 }
 
 #vignette-photo-6
 {
-    margin-top: 38px;
     width: 100%;
     height: 208px;
-    margin-top: 15%;
-    margin-top:10%;
-    margin-left:20%;
+    margin-top: 38px;
 }
 
 .photosactivites
@@ -575,7 +569,7 @@ aside
 
 #photo-6-activite
 {
-    height:150px;
+    height:146px;
 }
 
 footer
@@ -607,19 +601,7 @@ li
     margin-top: 10%;
 }
 
-
-/*                  FIN
-
-                DE  LA  PARTIE
-
-
-                DESTOP 
-
-*/                
-
-
-@media all and (max-device-width: 495px)
-{
+@media all and (min-width: 320px) and (max-width: 495px) {
     body
     {
         margin: 0%;
@@ -935,7 +917,7 @@ li
     
     #vignette-photo-6 
     {
-        width: 92%;
+        width: 10%;
         margin-top: 3.3em;
         margin-left: 0%;
         margin-right: 8%;
@@ -979,21 +961,8 @@ li
     }
 
 }
-
-/*
-
-
-                    FIN 
-
-                DE LA  PARTIE
-
-                   MOBILE
-
-
-*/
-
-@media all and (min-device-width: 496px) and (max-device-width: 1025px)
-{
+@media all and (min-width: 496px) and (max-width: 1025px){
+   
     body
     {
         margin:8px;
@@ -1171,12 +1140,11 @@ li
         margin-left: 7%;
     }
 
-/*Début Aside*/
+/* Début Aside */
 
     aside 
     {
         width: 100%;
-        padding: top 5%;
         padding-bottom: 5%;
         padding-top: 5%;
         align-items: center;
@@ -1293,15 +1261,12 @@ li
         margin-right: 2.7%;
         height: auto;
     }
-    }
-    
+
+
     .groupe-vignettes-5-6
     {
         width: 100%;
-        margin-left: 0%;
-        margin-bottom: 0%;
-        margin-right: 0%;
-        margin-top: 0%;
+        margin: 0;
     }
 
     #vignette-photo-5
@@ -1370,10 +1335,7 @@ li
 
     .positionnement-elements-liste-footer
     {
-        margin-bottom: 0%;
+        margin-bottom: 0;
         margin-top: 2%;
     }
 }
-
-
-
