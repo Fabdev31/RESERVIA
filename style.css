@@ -601,7 +601,9 @@ li
     margin-top: 10%;
 }
 
-@media all and (min-width: 320px) and (max-width: 495px) {
+@media all and (min-width: 320px) and (max-width: 495px) 
+
+{
     body
     {
         margin: 0%;
@@ -610,7 +612,7 @@ li
     #bloc-page
     {
         height: auto;
-        width: 100% ;
+        width: 96%;
     }
     img
     {
@@ -849,13 +851,6 @@ li
         padding: 0px;
         margin: 2%;
     }
-    #vignette-photo1
-    {
-        width: 92%;
-        height: 190.3px;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
 
     .grande-photo 
     {
@@ -874,53 +869,62 @@ li
         height: 76%;
     }
 
+    #vignette-photo1
+    {
+        width: 89%;
+        height: 190.3px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
     #vignette-photo-2
     {
         width: 92%;
         height: 190.3px;
-        margin-left: 0%;
-        margin-right: 8%;
+        margin-left: 2%;
+        margin-right: 4%;
     }
 
-    #vignette-photo-3 {
+    #vignette-photo-3 
+    {
         height: 190.3px;
         margin-top: 2%;
         width: 92%;
         margin-bottom: 3%;
-        margin-right: 7%;
+        margin-right: 4%;
+        margin-left: 1%;
     }
 
     #vignette-photo4
     {
-        width: 92%;
+        width: 89%;
         height: 190.3px;
         margin-top: 3%;
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: 2%;
     }
     
-    #vignette-photo-5
-    {
-        width: 92%;
-        height: 208px;
-        margin-bottom: -7%;
-        margin-left: 0%;
-        margin-right: 8%;
-    }
     .groupe-vignettes-5-6
     {
         width: 92%;
-        margin-top: 1.3em;
+        margin-top: 13%;
         margin-left: 3%;
-        margin-right: 0%;
+        margin-right: 4%;
+    }
+
+    #vignette-photo-5
+    {
+        width: 92%;
+        margin-bottom: -5%;
+        margin-left: 4%;
+        margin-right: 8%;
     }
     
     #vignette-photo-6 
     {
-        width: 10%;
-        margin-top: 3.3em;
+        width: 92%;
+        margin-top: 13%;
         margin-left: 0%;
-        margin-right: 8%;
+        margin-right: 4%;
     }
 
     .regroupement-de-vignettes
@@ -928,20 +932,20 @@ li
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
+        width: 96%;
     }
+
     footer
     {
-        padding-bottom: 8%;
-        margin-top: 3%;
-        padding-top: 8%;
+        margin-left:2%;
+        width:100%;
     }
+
     #description_footer
     {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     li
@@ -950,18 +954,22 @@ li
         margin-bottom: -10%;
         margin-top: 19%;
     }
+
     .positionnement-elements-liste-footer
     {
         margin-top: 4%;
         margin-bottom: 1%;
     }
-    .mentionslegales {
+
+    .mentionslegales 
+    {
         margin-bottom: 6%;
         margin-top: 0%;
     }
-
 }
-@media all and (min-width: 496px) and (max-width: 1025px){
+
+@media all and (min-device-width: 496px) and (max-device-width: 1025px)
+{
    
     body
     {
@@ -972,14 +980,14 @@ li
     {
         width: 94%;
         margin-top:16px;
-        margin:0px;
+        margin-left: 4%;
     }
 
     #logo-reservia
     {
-        width: 74px;
-        margin-left: 7%;
-        margin-top:0%;
+        width: 75px;
+        margin-left: 0%;
+        margin-top:2%;
     }
 
     nav
@@ -990,7 +998,8 @@ li
     nav ul
     {
         position: absolute;
-        bottom: 95%;
+        bottom: 90%;
+        left: 56%;
         width: 29%;
         font-size: 0.7em;
         justify-content: flex-end;
@@ -1151,20 +1160,15 @@ li
         padding-top: 5%;
 
     }
-    #ensemble-des-vignettes-aside {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }    
+
+    .vignettes-aside
+    {
+        width: 83%;
+    }
 
     #placement-titre-aside 
     {
-        width: 80%;
-        margin-left: 0%;
-        margin-top: 0%;
-        height: auto;
-        justify-content: space-between;
+        width: 83%;
     }
 
     .photos-vignettes-aside
