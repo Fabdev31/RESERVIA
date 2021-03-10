@@ -623,8 +623,9 @@ li
     header
     {
         margin-top: -6%;
-        margin-left: 2%;
-        width:96%;
+        margin-left: 0%;
+        width:98%;
+        margin-right:0%;
     }
 
     #logo-reservia
