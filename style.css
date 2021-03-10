@@ -612,7 +612,7 @@ li
     #bloc-page
     {
         height: auto;
-        width: 96%;
+        width: 100%;
     }
     img
     {
@@ -767,18 +767,26 @@ li
     
     .vignettes-article1 
     {
-        width: 100%;
+        width: 89%;
         height: 190px;
         box-shadow: 6px 13px 18px rgb(242 242 242);
         margin-top: 4%;
+        margin-left:5%;
     }
 
     .photologement
     {
         height: 60%;
     }
+    #placement-h2-section2
+
+    {
+        margin-top: 8%;
+        margin-left:7%;
+    }
 
     .positionnement-h3-article1
+    
     {
         margin-top: 1%;
         margin-bottom: 0%;
@@ -787,6 +795,12 @@ li
     .positionnement-etoiles-article1
     {
         margin-top: 1%;
+    }
+
+    #positionnement-texte-article1
+    {
+        width:89%;
+        margin-left:7%;
     }
 
     aside 
@@ -839,7 +853,7 @@ li
     }
     #Placement-h2-section3
     {
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
     h3
@@ -873,7 +887,7 @@ li
     {
         width: 89%;
         height: 190.3px;
-        margin-left: 0%;
+        margin-left: 3%;
         margin-right: 0%;
     }
 
@@ -881,8 +895,8 @@ li
     {
         width: 92%;
         height: 190.3px;
-        margin-left: 2%;
-        margin-right: 4%;
+        margin-left: 0%;
+        margin-right: 2%;
     }
 
     #vignette-photo-3 
@@ -937,7 +951,6 @@ li
 
     footer
     {
-        margin-left:2%;
         width:100%;
     }
 
@@ -946,6 +959,7 @@ li
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-left: 2%;
     }
 
     li
