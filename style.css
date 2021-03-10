@@ -990,11 +990,8 @@ li
     nav ul
     {
         position: absolute;
-        right: 1%;
-        left: 52%;
         bottom: 95%;
         width: 29%;
-        margin-right: 8%;
         font-size: 0.7em;
         justify-content: flex-end;
     }
@@ -1021,8 +1018,8 @@ li
 
     #section1
     {
-
-        margin:7%;
+        width:83%;
+        margin-top: 7%;
     }
 
     #bullederecherche 
@@ -1310,17 +1307,14 @@ li
     
     footer
     {
-        height: auto;
         padding-bottom: 3%;
-        margin-top: 4%;
+        width: 99%;
     }
 
     #description_footer
     {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width:100%;
-        justify-content: space-around;
     }
 
     li
