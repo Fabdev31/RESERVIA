@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: 'Raleway', sans-serif;
-    src: url ("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600;800&display=swap") format("ttf");}
+}
 
 body
 {
@@ -623,7 +623,7 @@ li
     {
         margin-top: -6%;
         margin-left: 2%;
-        width:100%;
+        width:96%;
     }
 
     #logo-reservia
@@ -681,12 +681,17 @@ li
     h1
     {
         margin-bottom: 4%;
-        font-size:1em;
+        font-size:1.2em;
     }
 
     h2
     {
         font-size: 1em;
+    }
+
+    .elements-en-police-legere
+    {
+        font-size:0.8em;
     }
 
     #bullederecherche {
@@ -704,13 +709,15 @@ li
     }
     #presentation_filtres
     {
+        height: auto;
         width: 100%;
         flex-wrap: wrap;
-        margin-bottom: 56%;
+        margin-bottom: 5%;
     }
     #element-filtre
     {
         width: 100%;
+        height:auto;
         margin-bottom: 3%;
         margin-left: 1%;
     }
@@ -749,6 +756,14 @@ li
         margin-right: 11%;
     }
     
+    #texte-sous-les-filtres
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+        font-size: 1.3em;
+    }
+
     #section2 
     {
         flex-direction: column-reverse;
@@ -979,7 +994,7 @@ li
     }
 }
 
-@media all and (min-device-width: 496px) and (max-device-width: 1025px)
+@media all and (min-width: 496px) and (max-width: 1025px)
 {
    
     body
