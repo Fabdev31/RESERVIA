@@ -612,7 +612,8 @@ li
     #bloc-page
     {
         height: auto;
-        width: 100%;
+        width: 98%;
+        margin-left:1%;
     }
     img
     {
@@ -767,14 +768,15 @@ li
     #section2 
     {
         flex-direction: column-reverse;
-        margin-left: 0%;
+        margin-left: 2%;
         margin-right: 0%;
+        width:96%;
     }
 
     #groupe-de-vignettes-article1
     {
         height: auto;
-        width: 100%;
+        width: 96%;
         margin-bottom: 0%;
         margin-top: 4%;
         background-color: white;
@@ -853,19 +855,21 @@ li
         margin-top: 4%;
         margin-bottom: 17%;
         height: auto;
-        margin-right: 4%;
-        margin-left: 4%;
+        margin-right: 0%;
+        margin-left: 0%;
     }
 
     #articleactivites
     {
-        height: 100%;
+        width: 98%;
+        margin-left:1%;
         flex-wrap: wrap;
         flex-direction: column;
     }
     #Placement-h2-section3
     {
-        margin-left: 3%;
+        width:90%;
+        margin-left: 8%;
     }
 
     h3
@@ -897,9 +901,9 @@ li
 
     #vignette-photo1
     {
-        width: 89%;
+        width: 84%;
         height: 190.3px;
-        margin-left: 3%;
+        margin-left: 6%;
         margin-right: 0%;
     }
 
@@ -907,8 +911,8 @@ li
     {
         width: 92%;
         height: 190.3px;
-        margin-left: 0%;
-        margin-right: 2%;
+        margin-left: 1%;
+        margin-right: 4%;
     }
 
     #vignette-photo-3 
@@ -923,10 +927,11 @@ li
 
     #vignette-photo4
     {
-        width: 89%;
+        width: 86%;
         height: 190.3px;
         margin-top: 3%;
-        margin-left: 2%;
+        margin-left: 6%;
+        margin-right:1%;
     }
     
     .groupe-vignettes-5-6
@@ -958,12 +963,14 @@ li
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 96%;
+        width: 90%;
+        margin-right:0%;
+        margin-left:4%;
     }
 
     footer
     {
-        width:100%;
+        width:98%;
     }
 
     #description_footer
